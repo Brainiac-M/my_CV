@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@700;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -35,8 +36,89 @@ body {
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: smaller;
     color: #2079C7;
     padding: 1em 0px;
+}
+
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    padding: 5px;
+    color: #676765;
+}
+
+.list {
+    list-style-type: none;
+    color: #676765;
+}
+
+li {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+li::before {
+    margin-left: 30px;
+    content: "- ";
+}
+
+.spec {
+    font-family: 'Merriweather', serif;
+    font-size: 700;
+    padding-bottom: 5px;
+}
+
+.sec_school {
+    margin-top: 15px;
+}
+
+.right {
+    margin-right: 10em;
+    margin-top: 25px;
+    margin-bottom: 5em;
+}
+
+.contact_info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: smaller;
+    margin-bottom: 12em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-bottom: 3em;
+}
+
+.skills p {
+    margin-bottom: 0.9em;
+    color: #676765;
+}
+
+.awards {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-bottom: 3em;
+}
+
+.awards p {
+    margin-bottom: 0.9em;
+    color: #676765;
+}
+
+.language {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #676765;
 }
